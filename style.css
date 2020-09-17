@@ -1,0 +1,74 @@
+* {
+    border: red solid 1px;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    align-content: center;
+    font-family: 'Handlee', cursive;
+    display: flex;
+    justify-content: center;
+}
+.flex {
+    display: flex;
+}
+.container {
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    width: 500px;
+    margin: 200px;
+}
+.postcard-header {
+  justify-content:space-between;
+}
+.postcard-header-left {
+    
+}
+.postcard-header-left h1{
+    margin: 10px;
+    padding: 0px;
+}
+.postcard-header-right {
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0px;
+}
+.postcard-body {
+    
+}
+.postcard-body-left {
+    width: 50%;
+    padding-left: 10px;
+}
+.postcard-body-left p{
+    margin: 0px;
+    font-size: 20px;
+}
+.postcard-body-right {
+    width: 50%;
+}
+form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.postcard-body input[type=text] {
+    font-family: 'Handlee', cursive;
+    border: none;
+    border-bottom: rgb(94, 94, 94) 1px solid;
+    font-size: 20px;
+}
+.postcard-footer {
+    justify-content: center;
+    padding-top: 10px;
+}
+.postcard-footer button[type=submit] {
+    background: rgb(180, 180, 180);
+    border-bottom: 1px rgb(94, 94, 94) solid;
+    font-family: 'Handlee', cursive;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
